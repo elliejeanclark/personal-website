@@ -12,28 +12,29 @@ function App() {
     return (
         <BrowserRouter>
             <div className="body">
-                <header>
+                <header id="header">
                     <nav className="navbar navbar-expand-lg" id="head-nav">
                         <menu className="navbar-nav">
-                            <div>
-                                Elinor Jean Clark
+                            <div id="logo">
                                 {/* eventually a logo here hopefully */}
                             </div>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/">Home</NavLink>
-                            </li>
-                            <li className="nav-item">
-                               <NavLink className="nav-link" to="/Hobbies">Hobbies</NavLink> 
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/Schooling">Schooling</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/VolunteeringandService">Volunteering and Service</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to="/WorkExperience">Work Experience</NavLink>
-                            </li>
+                            <div className="navbar">
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/">Home</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                <NavLink className="nav-link" to="/Hobbies">Hobbies</NavLink> 
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/Schooling">Schooling</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/VolunteeringandService">Volunteering and Service</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/WorkExperience">Work Experience</NavLink>
+                                </li>
+                            </div>
                         </menu>
                     </nav>
                 </header>

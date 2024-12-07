@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.body > header {
+    flex-shrink: 0;
+}
+
+.body > main {
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 1rem;
+    margin-top: 5px;
+}
+
+#head-nav {
+    background-color: #f8f9fa;
+    border-bottom: 3px solid #e9ecef;
+    padding: 0.5rem 0;
+}
+
+#logo {
+    justify-content: flex-start;
+    margin-right: auto;
+    padding-left: 1rem;
+}
