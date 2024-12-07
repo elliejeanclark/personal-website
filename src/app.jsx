@@ -24,7 +24,7 @@ function App() {
                                     <NavLink className="nav-link" to="/">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                <NavLink className="nav-link" to="/Hobbies">Hobbies</NavLink> 
+                                    <NavLink className="nav-link" to="/Hobbies">Hobbies</NavLink> 
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/Schooling">Schooling</NavLink>
@@ -51,19 +51,15 @@ function App() {
                 <footer className="py-3 bg-light">
                     <div id="email-container">
                         <i className="fa-regular fa-envelope"></i>
-                        <p id="email">elliejeanclark@gmail.com</p>
+                        <a id="email" href="mailto:elliejeanclark@gmail.com">elliejeanclark@gmail.com</a>
                     </div>
-                    <div id="instagram-container">
-                        <i className="fa-brands fa-instagram"></i>
-                        <p id="insta-handle">@ellie_jean_</p>
-                    </div>
-                    <div id="git-hub-container">
+                    <div id="github-container">
                         <i className="fa-brands fa-github"></i>
-                        <p id="git-hub">elliejeanclark</p>
+                        <a id="github" href="https://github.com/elliejeanclark">elliejeanclark</a>
                     </div>
                     <div id="linkedin-container">
                         <i className="fa-brands fa-linkedin"></i>
-                        <p id="linkedin">Elinor Clark</p>
+                        <a id="linkedin" href="https://www.linkedin.com/in/elinor-clark-42740b340/">Elinor Clark</a>
                     </div>
                 </footer>
             </div>

@@ -46,8 +46,27 @@ menu {
     padding-left: 1rem;
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 footer {
     background-color: #dadadb;
     border-top: 3px solid #e9ecef;
     margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#email, #github, #linkedin {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding: .5rem;
+}
+
+#github-container {
+    margin-right: 100px;
+    margin-left: 100px;
 }
