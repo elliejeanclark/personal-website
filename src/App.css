@@ -3,17 +3,19 @@ html, body {
     margin: 0;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 main {
     display: flex;
     width: 100%;
 }
 
-.body > header {
+.body > header, .body > footer {
     flex-shrink: 0;
-}
-
-.body > main {
-    flex-grow: 1;
 }
 
 nav {
@@ -42,4 +44,10 @@ menu {
     justify-content: flex-start;
     margin-right: auto;
     padding-left: 1rem;
+}
+
+footer {
+    background-color: #dadadb;
+    border-top: 3px solid #e9ecef;
+    margin-top: auto;
 }

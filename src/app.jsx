@@ -5,6 +5,7 @@ import { Hobbies } from './Hobbies/Hobbies';
 import { Schooling } from './Schooling/Schooling';
 import { VolunteeringService } from './VolunteeringService/VolunteeringService';
 import { WorkExperience } from './WorkExperience/WorkExperience';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 
@@ -38,15 +39,34 @@ function App() {
                         </menu>
                     </nav>
                 </header>
-            </div>
 
-            <Routes>
-                <Route path='/' element={<Home />}/>
-                <Route path='/Hobbies' element={<Hobbies />}/>
-                <Route path='/Schooling' element={<Schooling />}/>
-                <Route path='/VolunteeringandService' element={<VolunteeringService />}/>
-                <Route path='/WorkExperience' element={<WorkExperience />}/>
-            </Routes>
+                <Routes>
+                    <Route path='/' element={<Home />}/>
+                    <Route path='/Hobbies' element={<Hobbies />}/>
+                    <Route path='/Schooling' element={<Schooling />}/>
+                    <Route path='/VolunteeringandService' element={<VolunteeringService />}/>
+                    <Route path='/WorkExperience' element={<WorkExperience />}/>
+                </Routes>
+
+                <footer className="py-3 bg-light">
+                    <div id="email-container">
+                        <i className="fa-regular fa-envelope"></i>
+                        <p id="email">elliejeanclark@gmail.com</p>
+                    </div>
+                    <div id="instagram-container">
+                        <i className="fa-brands fa-instagram"></i>
+                        <p id="insta-handle">@ellie_jean_</p>
+                    </div>
+                    <div id="git-hub-container">
+                        <i className="fa-brands fa-github"></i>
+                        <p id="git-hub">elliejeanclark</p>
+                    </div>
+                    <div id="linkedin-container">
+                        <i className="fa-brands fa-linkedin"></i>
+                        <p id="linkedin">Elinor Clark</p>
+                    </div>
+                </footer>
+            </div>
         </BrowserRouter>
     );
 }
