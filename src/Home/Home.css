@@ -1,3 +1,23 @@
-#carouselImage {
-    size: 80%;
+#card1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    background-color: #b2ddeb;
+    background-image: radial-gradient(ellipse, #ffffff, #b2ddeb);
+}
+
+#headshot1 {
+    object-fit: cover;
+    width: 20%;
+    margin-left: 2em;
+    margin-right: 3em;
+    border-radius: 2%;
+}
+
+#intro {
+    text-align: left;
+    width: 500px;
+    margin-left: 3em;
 }
