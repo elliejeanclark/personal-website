@@ -8,6 +8,15 @@
     background-image: radial-gradient(ellipse, #ffffff, #ebdeb2);
 }
 
+#carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: grey;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -16,36 +25,23 @@
     padding: 2em;
 }
 
-#card1 {
-    background-image: radial-gradient(ellipse, #ffffff, #b2ddeb);
-}
-
-#card2 {
-    background-image: radial-gradient(ellipse, #ffffff, #ebb2c7);
-}
-
-#card3 {
-    background-image: radial-gradient(ellipse, #ffffff, #b2ddeb);
-}
-
-#card4 {
-    background-image: radial-gradient(ellipse, #ffffff, #ebb2c7);
-}
-
-#card5 {
-    background-image: radial-gradient(ellipse, #ffffff, #b2ddeb);
-}
-
-.headshots {
-    object-fit: cover;
-    width: 20%;
-    margin-left: 3em;
-    margin-right: 3em;
-    border-radius: 2%;
+#text-carousel {
+    width: 50%;
 }
 
 .home-text {
     text-align: left;
-    width: 500px;
+    width: 550px;
     margin-left: 3em;
+}
+
+#image-carousel {
+    width: 30%;
+}
+
+.carousel-image {
+    object-fit: cover;
+    border-radius: 2%;
+    width: 100%;
+    height: 550px;
 }
