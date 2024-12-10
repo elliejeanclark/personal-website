@@ -58,9 +58,9 @@ export function Home() {
                         </Carousel.Item>
                         <Carousel.Item>
                             <p className="home-text" id="hobbies">
-                                I am the oldest daughter of 3 children, and I love my family and friends. I love to read, write, crochet, play the piano, complete jigsaw puzzles, hike, attend live theater, 
-                                play board games, and spend time with friends and family. I am passionate about being an active member of my community and working with others to better our community 
-                                and the world. 
+                                I am the oldest daughter of 3 children, and I love my family and friends. I love to read, write, crochet, play the piano, complete jigsaw puzzles, walking, 
+                                attend live theater, play board games, and spend time with friends and family. I am passionate about being an active member of my community and working
+                                with others to better our community and the world. 
                             </p>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -73,15 +73,15 @@ export function Home() {
                         <Carousel.Item>
                             <p className="home-text" id="work">
                                 I currently work at the Christa McAullife Space Center. I have been working at the center since 2021 as a Supervisor, Set Director, and 
-                                currently as a Flight Director. I have worked with hundreds of children and adults, helping educate them and helping them have fun discovering the wonders of the universe
-                                and their own potential. As a Flight Director, I have had a lot of experience troubleshooting and problem solving.
+                                currently as a Flight Director. I have worked with hundreds of children and adults, helping educate them and helping them have fun discovering
+                                the wonders of the universe and their own potential. As a Flight Director, I have had a lot of experience troubleshooting and problem solving.
                             </p>
                         </Carousel.Item>
                         <Carousel.Item>
                             <p className="home-text" id="volunteering-service">
                                 As a member of the Church of Jesus Christ of Latter-Day Saints I have a strong faith in Jesus Christ and his mission of service. I have served in several 
-                                capacities in my church. I have been a teacher, youth leader, and musical accompianist. I also served as a volunteer for 3 years at the Christa McAullife Space before 
-                                I was offered a position, and have volunteered in phone banks during elections.
+                                capacities in my church. I have been a teacher, youth leader, and musical accompianist. I also served as a volunteer for 3 years at the Christa McAullife
+                                Space Center before I was offered a position, and have volunteered in phone banks during elections.
                             </p>
                         </Carousel.Item>
                     </Carousel>

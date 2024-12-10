@@ -24,9 +24,6 @@ function App() {
                                     <NavLink className="nav-link" to="/">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/Hobbies">Hobbies</NavLink> 
-                                </li>
-                                <li className="nav-item">
                                     <NavLink className="nav-link" to="/Schooling">Schooling</NavLink>
                                 </li>
                                 <li className="nav-item">
@@ -34,6 +31,9 @@ function App() {
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/WorkExperience">Work Experience</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/Hobbies">Hobbies</NavLink> 
                                 </li>
                             </div>
                         </menu>
