@@ -4,7 +4,7 @@ import './Home.css';
 export function Home() {
     return (
         <div>
-            <p id="name">Elinor Jean Clark</p>
+            <div id="name">Elinor Jean Clark</div>
             <div id="card1">
                 <img src="./pictures/headshot1.jpg" alt="headshot" id="headshot1"/>
                 <p id="intro">
