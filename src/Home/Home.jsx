@@ -8,7 +8,7 @@ export function Home() {
             <div id="name">Elinor Jean Clark</div>
             <div id="carousel">
                 <div id="image-carousel">
-                    <Carousel>
+                    <Carousel interval={8000}>
                         <Carousel.Item>
                             <img
                                 className="carousel-image"
@@ -48,7 +48,7 @@ export function Home() {
                 </div>
 
                 <div id="text-carousel">
-                    <Carousel>
+                    <Carousel interval={8000}>
                         <Carousel.Item>
                             <p className="home-text" id="intro">
                                 Hello! My name is Elinor Jean Clark, and I am a computer scientist passionate about developing software that enhances people's lives. 

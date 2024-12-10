@@ -27,12 +27,15 @@
 
 #text-carousel {
     width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-text {
-    text-align: left;
+    text-align: center;
     width: 550px;
-    margin-left: 3em;
+    margin: 3em;
+    padding: 30px;
 }
 
 #image-carousel {
