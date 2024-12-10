@@ -4,7 +4,7 @@ import './Home.css';
 
 export function Home() {
     return (
-        <div>
+        <div id="main-page">
             <div id="name">Elinor Jean Clark</div>
             <div id="carousel">
                 <div id="image-carousel">
