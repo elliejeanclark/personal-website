@@ -27,10 +27,10 @@ function App() {
                                     <NavLink className="nav-link" to="/Schooling">Schooling</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/VolunteeringandService">Volunteering and Service</NavLink>
+                                    <NavLink className="nav-link" to="/WorkExperience">Work Experience</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/WorkExperience">Work Experience</NavLink>
+                                    <NavLink className="nav-link" to="/VolunteeringandService">Volunteering and Service</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/Hobbies">Hobbies</NavLink> 
