@@ -8,24 +8,43 @@
     background-image: radial-gradient(ellipse, #ffffff, #ebdeb2);
 }
 
-#card1 {
+.cards {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 2em;
+}
+
+#card1 {
     background-image: radial-gradient(ellipse, #ffffff, #b2ddeb);
 }
 
-#headshot1 {
+#card2 {
+    background-image: radial-gradient(ellipse, #ffffff, #ebb2c7);
+}
+
+#card3 {
+    background-image: radial-gradient(ellipse, #ffffff, #b2ddeb);
+}
+
+#card4 {
+    background-image: radial-gradient(ellipse, #ffffff, #ebb2c7);
+}
+
+#card5 {
+    background-image: radial-gradient(ellipse, #ffffff, #b2ddeb);
+}
+
+.headshots {
     object-fit: cover;
     width: 20%;
-    margin-left: 2em;
+    margin-left: 3em;
     margin-right: 3em;
     border-radius: 2%;
 }
 
-#intro {
+.home-text {
     text-align: left;
     width: 500px;
     margin-left: 3em;
