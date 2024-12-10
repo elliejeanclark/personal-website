@@ -8,6 +8,7 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin-top: 75px;
 }
 
 main {
@@ -17,6 +18,13 @@ main {
 
 .body > header, .body > footer {
     flex-shrink: 0;
+}
+
+.body > header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 nav {
