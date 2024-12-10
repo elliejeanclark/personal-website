@@ -13,6 +13,23 @@ export function Home() {
                     I currently work at the Christa McAullife Space center as a Flight Director.
                 </p>
             </div>
+            <div id="card2">
+                <img src="./pictures/headshot2.jpg" alt="headshot" id="headshot2" />
+                <p id="personal-info">
+                    I am the oldest daughter of 3 children, and I love my family and friends. As a member of the Church of Jesus Christ of Latter-Day Saints
+                    I have a strong faith in Jesus Christ and His teachings. I love to read, write, crochet, play the piano, complete jigsaw puzzles,
+                    play board games, and watch fun movies and tv shows with my friends. I am passionate about working with others to better our community and the world. 
+                </p>
+            </div>
+            <div id="card3">
+                <img src="./pictures/headshot3.JPG" alt="headshot" id="headshot3" />
+                <p id="schooling">
+                    I graduated Orem High School in 2021, graduating with honors and the student director of the Orem High Choir. On graduating I was awarded several scholarships,
+                    most notably I recieved the Daniels Fund Scholarship. I am currently pursuing a Bachelor's Degree in Computer Science at Brigham Young University, where I have
+                    made the Deans list and been offered positions at the college by multiple professors.
+                </p>
+
+            </div>
         </div>
     );
 }

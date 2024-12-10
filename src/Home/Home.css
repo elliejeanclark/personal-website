@@ -5,7 +5,7 @@
     align-items: center;
     font-family: 'Playwrite HR Lijeva', serif;
     padding-bottom: 1rem;
-    background-image: radial-gradient(ellipse, #ffffff, lightblue);
+    background-image: radial-gradient(ellipse, #ffffff, #ebdeb2);
 }
 
 #card1 {
