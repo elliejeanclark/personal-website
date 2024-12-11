@@ -3,7 +3,7 @@ import './Hobbies.css';
 
 export function Hobbies() {
     return(
-        <div>
+        <div id="hobbies">
             <div id="hobbie-selection">
                 <div className="hobbie-container">
                     <i className="fa-solid fa-music"></i>
