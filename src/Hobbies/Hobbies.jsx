@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Hobbies.css';
 
 const hobbies = [
@@ -15,49 +15,69 @@ const hobbies = [
 ]
 
 export function Hobbies() {
+    const [selectedHobby, setSelectedHobby] = useState(null);
+
+    function loadHobby(id) {
+        const hobby = hobbies.find(hobby => hobby.id === id);
+        setSelectedHobby(hobby);
+    }
+    
     return(
         <div>
             <div id="hobbie-selection">
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('music')}>
                     <i className="fa-solid fa-music"></i>
                     <p>Music</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('reading')}>
                     <i className="fa-solid fa-book-bookmark"></i>
                     <p>Reading</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('writing')}>
                     <i className="fa-solid fa-pen-clip"></i>
                     <p>Writing</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('liveTheater')}>
                     <i className="fa-solid fa-masks-theater"></i>
                     <p>Live theater</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('walking')}>
                     <i className="fa-solid fa-person-hiking"></i>
                     <p>Walking</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('soccer')}>
                     <i className="fa-solid fa-futbol"></i>
                     <p>Soccer</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('crochet')}>
                     <i className="fa-solid fa-mitten"></i>
                     <p>Crochet</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('boardGames')}>
                     <i className="fa-solid fa-dice"></i>
                     <p>Board Games</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('puzzles')}>
                     <i className="fa-solid fa-puzzle-piece"></i>
                     <p>Jigsaw Puzzles</p>
                 </div>
-                <div className="hobbie-container">
+                <div className="hobbie-container" onClick={() => loadHobby('entertainment')}>
                     <i className="fa-solid fa-tv"></i>
                     <p>Entertainment</p>
                 </div>
+            </div>
+
+            <div id="specific-hobby">
+                {selectedHobby && (
+                    <div>
+                        <div id="hobbie-image">
+                            <img src={selectedHobby.image} alt={selectedHobby.id} />
+                        </div>
+                        <div id="hobbie-text">
+                            <p>{selectedHobby.text}</p>
+                        </div>
+                    </div>
+                )}
             </div>
         </div>
     );
